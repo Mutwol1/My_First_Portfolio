@@ -1,82 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Portfolio</title>
-    <style>
-        table {
-            width: 80%;
-            margin: 20px auto;
-            border-collapse: collapse;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            border-radius: 10px;
-            overflow: hidden;
-        }
-        th, td {
-            padding: 12px 15px;
-            text-align: left;
-            border-bottom: 1px solid #dddddd;
-        }
-        th {
-            background-color: #4CAF50;
-            color: white;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        tr:nth-child(even) {
-            background-color: #f3f3f3;
-        }
-        tr:hover {
-            background-color: #e9e9e9;
-            transform: scale(1.01);
-            transition: all 0.2s ease;
-        }
-        caption {
-            font-size: 1.5em;
-            margin: 10px 0;
-            font-weight: bold;
-            color: #333;
-        }
-    </style>
+    <meta charset="utf-8">
+    <title>John Doe - Personal Portfolio</title>
 </head>
 <body>
-    <article>
-        <!-- Your existing article content here -->
+    <header>
+        <h1>John Doe</h1>
+        <p>Web Developer | Designer | Problem Solver</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Hello! I'm a passionate web developer with expertise in HTML, CSS, and JavaScript. I love creating responsive and user-friendly websites that solve real-world problems.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
         
-        <table aria-label="Learners Information">
-            <caption>🌟 Our Global Learners Family 🌟</caption>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Age</th>
-                    <th>Country</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>John</td>
-                    <td>25</td>
-                    <td>USA 🇺🇸</td>
-                </tr>
-                <tr>
-                    <td>Emily</td>
-                    <td>28</td>
-                    <td>Canada 🍁</td>
-                </tr>
-                <tr>
-                    <td>Michael</td>
-                    <td>32</td>
-                    <td>Australia 🦘</td>
-                </tr>
-                <tr>
-                    <td>Sophia</td>
-                    <td>21</td>
-                    <td>UK 🇬🇧</td>
-                </tr>
-            </tbody>
-        </table>
-    </article>
+        <article class="project">
+            <h3>E-commerce Website</h3>
+            <p>A fully responsive online store with product listings, cart functionality, and secure checkout.</p>
+            <a href="https://github.com/username/ecommerce-project" target="_blank">View Project</a>
+        </article>
+        
+        <article class="project">
+            <h3>Task Management App</h3>
+            <p>A web application for organizing tasks with drag-and-drop functionality and team collaboration features.</p>
+            <a href="https://github.com/username/task-manager" target="_blank">View Project</a>
+        </article>
+        
+        <article class="project">
+            <h3>Weather Dashboard</h3>
+            <p>Real-time weather information display with 5-day forecast using a weather API.</p>
+            <a href="https://github.com/username/weather-app" target="_blank">View Project</a>
+        </article>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I have 3 years of experience in web development and hold a degree in Computer Science. My technical skills include:</p>
+        <ul>
+            <li>Front-end: HTML5, CSS3, JavaScript, React</li>
+            <li>Back-end: Node.js, Express</li>
+            <li>Database: MongoDB, MySQL</li>
+            <li>Tools: Git, VS Code, Figma</li>
+        </ul>
+        <p>When I'm not coding, I enjoy hiking, photography, and playing guitar.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me:</p>
+        <ul>
+            <li>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></li>
+            <li>LinkedIn: <a href="https://linkedin.com/in/johndoe" target="_blank">linkedin.com/in/johndoe</a></li>
+            <li>GitHub: <a href="https://github.com/johndoe" target="_blank">github.com/johndoe</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
 </body>
-</html>>
+</html>
